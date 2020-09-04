@@ -1,0 +1,21 @@
+.app-body__apps{
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.app_loader{
+    border: 1px solid red;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.app_loader .app_loader-icon{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-size: 3.5rem;
+    color: white;
+}
